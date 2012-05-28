@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /api
+    RewriteRule ^(.*)$ index.php?/$1 [L]
+</IfModule>

@@ -1,0 +1,9 @@
+h1. ExpressionEngine Data API
+
+This is a drop in channel and entry data API for ExpressionEngine. No installation is required, simply copy the required files and the data API will utilise your existing ExpressionEngine configuration.  
+
+This module will create a REST server for accessing stored channel and entry data.  Requests can be appended with either  ".xml" or ".json" to denote the desired return format.
+
+
+h2. Disclaimer
+This module should be considered in "alpha" state and is not ready for production use.
