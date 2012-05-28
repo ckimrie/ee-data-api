@@ -6,4 +6,5 @@ This module will create a REST server for accessing stored channel and entry dat
 
 
 h2. Disclaimer
-This module should be considered in "alpha" state and is not ready for production use.
+
+This module should be considered in "alpha" state and is not ready for production use.  There is no security sandbox implemented, so all channel and entry data stored in EE will be made public.
