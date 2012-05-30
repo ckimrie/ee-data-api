@@ -48,6 +48,8 @@ class Channel_data extends CI_Model
 
 				$channel['entries'][$key][$field['field_name']] = $entry["field_id_".$field['field_id']];
 				unset($channel['entries'][$key]["field_ft_".$field['field_id']]);
+				unset($channel['entries'][$key]["field_id_".$field['field_id']]);
+
 			}
 		}
 
@@ -99,6 +101,7 @@ class Channel_data extends CI_Model
 
 			$entry[$field['field_name']] = $entry["field_id_".$field['field_id']];
 			unset($entry["field_ft_".$field['field_id']]);
+			unset($entry["field_id_".$field['field_id']]);
 		}
 	
 
