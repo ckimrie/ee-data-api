@@ -11,7 +11,7 @@ This module should be considered in "alpha" state and is not ready for productio
 
 h2. Usage
 
-Once installed (simply copy the files to the root of your EE installation you can make the following requests from your web service or browser:
+Once installed (simply copy the files to the root of your EE installation) you can make the following requests from your web service or browser:
 
 <pre>
   //Request all entries
